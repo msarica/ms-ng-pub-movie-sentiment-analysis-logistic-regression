@@ -1,0 +1,19 @@
+<div>
+	<textarea
+		name="message"
+		rows="3"
+		cols="30"
+		placeholder="Write a movie review Eg: this is a masterpiece..."
+		#input
+	></textarea>
+</div>
+
+<!-- <button (click)="predictIfReviewIsPositive(input.value)">Check</button> -->
+
+<div *ngIf="comment">
+	{{ comment }}
+
+	<span style="font-size: xx-large;">
+		{{ isPositive ? '😀' : '🙁' }}
+	</span>
+</div>
