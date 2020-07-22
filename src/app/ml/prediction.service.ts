@@ -5,7 +5,8 @@ import { LogisticRegression } from './logistic-regression';
 import { Vectorizer } from './count-vectorizer';
 
 // json file that we exported from python
-import * as variables from './model_params.json';
+// import * as variables from './model_params.json';
+const variables = {};
 
 @Injectable({
 	providedIn: 'root',
