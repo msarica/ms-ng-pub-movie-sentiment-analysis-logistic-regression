@@ -10,11 +10,11 @@ import { Subject, fromEvent } from 'rxjs';
 import { takeUntil, map, debounceTime, tap } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-comment',
-  templateUrl: './comment.component.html'
+	selector: 'app-comment',
+	templateUrl: './comment.component.html',
 })
 export class CommentComponent implements OnInit {
-@ViewChild('input', { static: true })
+	@ViewChild('input', { static: true })
 	input: ElementRef;
 
 	comment: string;

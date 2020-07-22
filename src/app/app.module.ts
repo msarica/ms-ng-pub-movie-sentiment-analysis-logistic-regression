@@ -7,9 +7,8 @@ import { AppComponent } from './app.component';
 import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
-  imports: [ BrowserModule, FormsModule, MlModule
-  ],
-  declarations: [ AppComponent, CommentComponent, CommentComponent ],
-  bootstrap:    [ AppComponent ]
+	imports: [BrowserModule, FormsModule, MlModule],
+	declarations: [AppComponent, CommentComponent],
+	bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
