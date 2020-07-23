@@ -1,14 +1,14 @@
-import { NgModule ,ModuleWithProviders} from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { PredictionService } from './prediction.service';
+// import { NgModule ,ModuleWithProviders} from '@angular/core';
+// import { CommonModule } from '@angular/common';
+// import { PredictionService } from './prediction.service';
 
-@NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [],
-  providers: []
-})
-export class MlModule { 
+// @NgModule({
+//   imports: [
+//     CommonModule
+//   ],
+//   declarations: [],
+//   providers: []
+// })
+// export class MlModule { 
  
-}
+// }
